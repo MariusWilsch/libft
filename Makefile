@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: verdant <verdant@student.42.fr>            +#+  +:+       +#+         #
+#    By: mwilsch <mwilsch@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/21 14:13:12 by verdant           #+#    #+#              #
-#    Updated: 2023/04/25 10:27:12 by verdant          ###   ########.fr        #
+#    Updated: 2023/06/09 10:33:29 by mwilsch          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,7 +25,7 @@ FT_IS_DIR			=	ft_is/
 FT_IS					=	ft_isalnum ft_isalpha ft_isascii ft_isdigit ft_isprint
 
 FT_MEM_DIR		=	ft_mem/
-FT_MEM				= ft_bzero ft_calloc ft_memchr ft_memcmp ft_memmove ft_memset
+FT_MEM				= ft_bzero ft_calloc ft_memchr ft_memcmp ft_memmove ft_memset ft_memcpy
 
 FT_PUT_DIR		=	ft_put/
 FT_PUT				=	ft_putchar_fd ft_putendl_fd ft_putnbr_fd ft_putstr_fd
